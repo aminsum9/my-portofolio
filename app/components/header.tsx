@@ -43,9 +43,9 @@ export default function Header() {
                 </PopoverGroup>
                 <div className="md:hidden lg:flex lg:flex-1 lg:justify-end">
                     <div className="lg:hidden dropdown dropdown-end">
-                        <div tabIndex="0" role="button" className="btn btn-ghost rounded-field">Menu</div>
+                        <div tabIndex={0} role="button" className="btn btn-ghost rounded-field">Menu</div>
                         <ul
-                            tabIndex="-1"
+                            tabIndex={-1}
                             className="menu dropdown-content bg-base-200 rounded-box z-1 mt-4 w-52 p-2 shadow-sm">
                             <li><a href="#introduction" >Introduction</a></li>
                             <li><a href="#last-education" >Last Education</a></li>
