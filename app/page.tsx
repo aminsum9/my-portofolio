@@ -184,7 +184,7 @@ function Portfolio() {
       <div className="grid lg:grid-flow-col grid-rows-3 gap-4" >
         <div className="row-span-3">
           <div className="flex flex-col justify-center items-center" >
-            <div className="carousel rounded-box w-50">
+            <div className="carousel rounded-box lg:w-50 w-30">
               {firstApp.map((item, index) => {
                 return (<div id={"autojet-" + index} className="carousel-item w-full" key={index}>
                   <img src={"./portfolio/" + item} className="w-full" alt="..." />
@@ -220,7 +220,7 @@ function Portfolio() {
         </div>
         <div className="row-span-3 lg:order-2 order-1">
           <div className="flex flex-col justify-center items-center" >
-            <div className="carousel rounded-box w-50">
+            <div className="carousel rounded-box lg:w-50 w-30">
               {secondApp.map((item, index) => {
                 return (<div id={"ebelanja-" + index} className="carousel-item w-full" key={index}>
                   <img src={"./portfolio/" + item} className="w-full" alt="..." />
@@ -239,7 +239,7 @@ function Portfolio() {
       <div className="grid lg:grid-flow-col grid-rows-3 gap-4" >
         <div className="row-span-3">
           <div className="flex flex-col justify-center items-center" >
-            <div className="carousel rounded-box w-50">
+            <div className="carousel rounded-box lg:w-50 w-30">
               {thirdApp.map((item, index) => {
                 return (<div id={"ur-" + index} className="carousel-item w-full" key={index}>
                   <img src={"./portfolio/" + item} className="w-full" alt="..." />
