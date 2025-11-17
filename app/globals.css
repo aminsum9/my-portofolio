@@ -29,3 +29,14 @@ body {
 #main-content {
   background-image:url('./macbook-pro.jpeg');
 }
+
+@media screen and (max-width: 425px) {
+  #main-content {
+    background-image:url('./macbook-pro.jpeg');
+    background-size: 100% 300px !important;
+    background-position: center top 25px; 
+  }
+  #main-cv-porfolio{
+    /* margin-top: 20px !important; */
+  }
+}
