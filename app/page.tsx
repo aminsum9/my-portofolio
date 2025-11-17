@@ -191,7 +191,7 @@ function Portfolio() {
                 </div>)
               })}
             </div>
-            <div className="flex w-100 justify-center gap-2 py-2">
+            <div className="flex lg:w-100 max-w-full justify-center gap-2 py-2">
               {firstApp.map((item, index) => {
                 return <a href={"#autojet-" + index} className="btn btn-xs" key={index} >{index + 1}</a>
               })}
@@ -227,7 +227,7 @@ function Portfolio() {
                 </div>)
               })}
             </div>
-            <div className="flex w-100 justify-center gap-2 py-2">
+            <div className="flex lg:w-100 max-w-full justify-center gap-2 py-2">
               {secondApp.map((item, index) => {
                 return <a href={"#ebelanja-" + index} className="btn btn-xs" key={index} >{index + 1}</a>
               })}
@@ -246,7 +246,7 @@ function Portfolio() {
                 </div>)
               })}
             </div>
-            <div className="flex w-100 justify-center gap-2 py-2">
+            <div className="flex lg:w-100 max-w-full justify-center gap-2 py-2">
               {thirdApp.map((item, index) => {
                 return <a href={"#ur-" + index} className="btn btn-xs" key={index} >{index + 1}</a>
               })}
