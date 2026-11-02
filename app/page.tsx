@@ -173,6 +173,23 @@ function Experiences() {
         <p>PT. Stafbook Teknologi Asia is the third company I work for, at the company I participate in developing client application project and also gain more knowledges and experiences.</p>
       </div>
     </div>
+    <div className="grid lg:grid-flow-col grid-rows-3 gap-4 mt-5" >
+      <div className="row-span-6 lg:order-1 order-2">
+        <h1 className="font-bold text-xl" >PT. AKSELERASI INFORMASI INDONESIA (DEC 2025 - JUL 2026)</h1>
+        <p>PT. Akselerasi Informasi Indonesia was the fourth company where I
+          worked as Software Developer especially Fullstack Developer, here I develop several applications such as ERP and CRM Applications, I learned and gained new stack and knowledges such as Neo4j DBMS and deep dive microservices in Golang.</p>
+      </div>
+      <div className="row-span-6 lg:order-1 order-1">
+        <img
+          className="dark:invert"
+          src="./illustrations/111804082_10030731.jpg"
+          width={800}
+          height={400}
+          alt="me"
+        />
+        <a href="https://www.freepik.com/free-vector/hand-drawn-busy-office-template_111804082.htm#fromView=search&page=1&position=4&uuid=aef84f87-09e3-4060-93fe-ab062e748e27&query=working">Image by pikisuperstar on Freepik</a>
+      </div>
+    </div>
   </div>)
 }
 
